@@ -2,7 +2,7 @@ import requests
 import base64
 
 def check_url(url):
-    API_KEY="6bbb51c6e8a4b128d11c75734349ba50b616d98f2a4fd91f96dbb04bb33cadf0"
+    API_KEY=" Your API KEY"
     API_URL="https://www.virustotal.com/api/v3/urls/"
 
     encoded_url=base64.urlsafe_b64encode(url.encode()).decode().strip("=")
