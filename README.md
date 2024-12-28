@@ -17,7 +17,7 @@ A valid VirusTotal API key (free API keys can be obtained from VirusTotal).
 
 #Installation
 Clone the repository:
-git clone https://github.com/yourusername/Malicious-Link-Checker.git
+git clone https://github.com/dhananjay0911/Malicious_Link_Checker.git
 cd Malicious-Link-Checker
 Install required dependencies:
 
@@ -60,8 +60,9 @@ argparse: For handling command-line arguments.
 
 pip install -r requirements.txt
 
-python
+python code
 API_KEY = "your_api_key_here"  # Replace with your VirusTotal API key
+
 API_URL = "https://www.virustotal.com/api/v3/urls"
 
 This script checks the functionality of the url_checker.py file using sample URLs.
